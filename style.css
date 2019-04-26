@@ -1,0 +1,38 @@
+.main{
+	
+	font-family: "Trebuchet MS",  Helvetica, sans-serif;
+	background-color: #e6e6e6;
+	color: #261e1e;
+	display: grid;
+	grid-template-columns: 90%;
+	justify-items: center;
+	
+}
+h4{
+	font-weight: 100;
+}
+#title{
+	justify-self: center;
+}
+
+#tribute-info{
+	display: grid;
+	grid-template-columns: minmax(100px, 450px);
+	justify-content: center;
+	margin: 20px 40px 20px 40px;
+
+
+}
+
+#image{
+	max-width: 100%;
+  	display: block;
+  	height: auto;
+}
+#img-div{	
+	background-color: white;
+	display: grid;
+	grid-template-columns: 90%;
+	justify-content: center;
+	align-items: center;
+}
